@@ -25,5 +25,27 @@
 <h1>Saat saya mencoba untuk membenahi dan mengembalikan dengan melakukan upload ulang tiba-tiba saat melakukan refresh pada repo git hub ini beberapa file folder saya kembali tetapi menjadi sub module seperti gambar berikut</h1>
 ![menjadi submodule](https://github.com/anaradiocta/Pemrograman-Web/assets/143486124/b679a70d-6e8a-47e6-b102-01353da30828)
 
+<h1>Selama beberapa hari saya mencoba untuk melakukan push tapi hasilnya rejected terus menerus dan malah yang sudah terupload jadi terhapus, seperti gambar di bawah ini</h1>
+![2024-04-05 at 20 50 40_bd5711a0](https://github.com/anaradiocta/Pemrograman_web/assets/143486124/1afdb57a-d974-4c55-8168-a9e0dd7ebc32)
+![2024-04-05 at 21 16 55_0501e2a9](https://github.com/anaradiocta/Pemrograman_web/assets/143486124/035cf6a8-536f-4e92-9b20-6950ddfb981e)
+![2024-04-05 at 21 17 26_1c7e5da4](https://github.com/anaradiocta/Pemrograman_web/assets/143486124/fa1fd8cd-b137-42a1-a46a-c5be07b3ca25)
+
+<h1>Setelah itu saya mencoba membuat repo baru tetapi file terupload jadi berantakan tidak tersusun secara per folder ataupun per jobsheet, seperti gambar berikut</h1>
+![2024-04-05 at 21 30 29_cd45a853](https://github.com/anaradiocta/Pemrograman_web/assets/143486124/0aecb911-ed7f-4b41-bc39-823aa1a2c62b)
+
+<h1>Akhirnya saya mencoba membuat repository baru lagi, saat proses push berjalan lancar namun saat saya cek di website hasilnya tetap ada beberapa folder yang menjadi submodule seperti ini</h1>
+[2024-04-09 at 22 30 12_ace82f83](https://github.com/anaradiocta/Pemrograman_web/assets/143486124/73c14a39-6565-4be2-ba85-9654c1ff12aa)
+
+<h1>Saya juga mencoba untuk mereset git hub dengan menghapus seluruh isinya namun hasilnya tetap nihil seperti ini</h1>
+[2024-04-09 at 22 47 12_135fac49](https://github.com/anaradiocta/Pemrograman_web/assets/143486124/dcf83d82-869b-4c65-a830-3e88a762ceb1)
+
+
+
+
+
+
+
+
+
 
 
