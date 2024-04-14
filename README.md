@@ -34,12 +34,12 @@
 ![2024-04-05 at 21 30 29_cd45a853](https://github.com/anaradiocta/Pemrograman_web/assets/143486124/0aecb911-ed7f-4b41-bc39-823aa1a2c62b)
 
 <h1>Akhirnya saya mencoba membuat repository baru lagi, saat proses push berjalan lancar namun saat saya cek di website hasilnya tetap ada beberapa folder yang menjadi submodule seperti ini</h1>
-[2024-04-09 at 22 30 12_ace82f83](https://github.com/anaradiocta/Pemrograman_web/assets/143486124/73c14a39-6565-4be2-ba85-9654c1ff12aa)
+[2024-04-06 at 22 30 12_ace82f83](https://github.com/anaradiocta/Pemrograman_web/assets/143486124/73c14a39-6565-4be2-ba85-9654c1ff12aa)
 
 <h1>Saya juga mencoba untuk mereset git hub dengan menghapus seluruh isinya namun hasilnya tetap nihil seperti ini</h1>
-[2024-04-09 at 22 47 12_135fac49](https://github.com/anaradiocta/Pemrograman_web/assets/143486124/dcf83d82-869b-4c65-a830-3e88a762ceb1)
+[2024-04-06 at 22 47 12_135fac49](https://github.com/anaradiocta/Pemrograman_web/assets/143486124/dcf83d82-869b-4c65-a830-3e88a762ceb1)
 
-
+<h1>Pada tanggal 8 April kemarin saya berhasil membuat repository baru dan berhasil diisi dengan push sehingga saya melakukan penguploadan ulang mulai jobsheet1 sampai jobsheet7</h1>
 
 
 
