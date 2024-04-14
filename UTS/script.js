@@ -11,7 +11,6 @@ $(document).ready(function() {
     var date = $('#date').val();
     var time = $('#time').val();
 
-    // Membuat objek data untuk dikirimkan
     var formData = {
       name: name,
       email: email,
@@ -21,7 +20,6 @@ $(document).ready(function() {
       time: time
     };
 
-    // Mengirim data ke submit_booking.php menggunakan AJAX
     $.ajax({
       type: 'POST',
       url: 'submit_booking.php',
@@ -29,13 +27,18 @@ $(document).ready(function() {
       dataType: 'json',
       encode: true,
       success: function(response) {
-        // Jika pengiriman sukses, tampilkan pesan sukses
         if (response.success) {
           alert('Booking berhasil! Kami akan menghubungi Anda segera.');
-          // Reset form setelah sukses
+          console.log('Form data:', formData);
+
           $('#bookingForm')[0].reset();
+          var jsonFormData = JSON.stringify(formData);
+          console.log('Cookie bookingData:', jsonFormData);
+          document.cookie = 'bookingData=' + jsonFormData + '; expires=' + new Date(new Date().getTime() + 24 * 60 * 60 * 1000).toUTCString() + '; path=/';
+
+          alert('Anda akan diarahkan ke jadwal_booking.php');
+          window.location.href = 'jadwal_booking.php';
         } else {
-          // Jika ada error, tampilkan pesan error
           alert('Ada masalah saat melakukan booking. Silakan coba lagi.');
         }
       },
@@ -45,4 +48,37 @@ $(document).ready(function() {
       }
     });
   });
+
+  var bookingDataCookie = getCookie('bookingData');
+  if (bookingDataCookie) {
+    var bookingData = JSON.parse(bookingDataCookie);
+    $('#name').val(bookingData.name);
+    $('#email').val(bookingData.email);
+    $('#phone').val(bookingData.phone);
+    $('#service').val(bookingData.service);
+    $('#date').val(bookingData.date);
+    $('#time').val(bookingData.time);
+
+    alert('Booking berhasil! Kami akan menghubungi Anda segera.');
+    console.log('Cookie bookingData:', bookingData);
+
+    alert('Anda akan diarahkan ke jadwal_booking.php');
+    document.cookie = 'bookingData=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+    window.location.href = 'jadwal_booking.php';
+  }
+
+  function getCookie(name) {
+    var nameEQ = name + '=';
+    var cookies = document.cookie.split(';');
+    for (var i = 0; i < cookies.length; i++) {
+      var cookie = cookies[i];
+      while (cookie.charAt(0) == ' ') {
+        cookie = cookie.substring(1, cookie.length);
+      }
+      if (cookie.indexOf(nameEQ) == 0) {
+        return cookie.substring(nameEQ.length, cookie.length);
+      }
+    }
+    return null;
+  }
 });

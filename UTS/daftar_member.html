@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Member</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Daftar Member Baru</h1>
+  </header>
+  
+  <div class="container">
+    <form id="registerForm" action="submit_member.php" method="post">
+      <label for="name">Nama:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Nomor Telepon:</label>
+      <input type="text" id="phone" name="phone" required>
+
+      <label for="password">Alamat:</label>
+      <input type="alamat" id="alamat" name="alamat" required>
+
+      <input type="submit" value="Daftar">
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

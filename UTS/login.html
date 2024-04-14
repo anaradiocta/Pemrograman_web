@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Member</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Login Member</h1>
+  </header>
+  
+  <div class="container">
+    <form id="loginForm" action="login_process.php" method="post">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email_or_notelp">Email/No.telepon:</label>
+        <input type="text" id="email_or_notelp" name="email_or_notelp" required>
+
+      <input type="submit" value="Login">
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
